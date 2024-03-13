@@ -1,0 +1,102 @@
+SOLIDITY_ADDRESS_HARDCODED:
+    sbo: Hard Coded Address
+SOLIDITY_ARRAY_LENGTH_MANIPULATION:
+    sbo: Write to Arbitrary Storage Location
+SOLIDITY_BALANCE_EQUALITY:
+    classification: SWC-132
+    sbo: Balance Equality
+SOLIDITY_BYTE_ARRAY_INSTEAD_BYTES:
+    sbo: Byte Array
+SOLIDITY_CALL_WITHOUT_DATA:
+    sbo: Low Level Calls
+SOLIDITY_CONSTRUCTOR_RETURN:
+    sbo: Assembly Return in Constructor
+SOLIDITY_DELETE_ON_DYNAMIC_ARRAYS:
+    sbo: Bad Coding Pattern
+SOLIDITY_DEPRECATED_CONSTRUCTIONS:
+    classification: SWC-111
+    sbo: Use of Deprecated Functions
+SOLIDITY_DIV_MUL:
+    sbo: Integer Division
+SOLIDITY_DOS_WITH_THROW:
+    sbo: Mishandled / Unexpected Throw / Revert
+SOLIDITY_DO_WHILE_CONTINUE:
+    sbo: Bad Coding Pattern
+SOLIDITY_ERC20_APPROVE:
+    sbo: Approval Frontrunning
+SOLIDITY_ERC20_FUNCTIONS_ALWAYS_RETURN_FALSE:
+    sbo: Erroneous Accounting (Machine Unauditable)
+SOLIDITY_ERC20_INDEXED:
+    sbo: ERC20 Indexed
+SOLIDITY_ERC20_TRANSFER_SHOULD_THROW:
+    sbo: Approval Not Cleared
+SOLIDITY_EXACT_TIME:
+    classification: SWC-116, DASP-8
+    sbo: Timestamp Dependency
+SOLIDITY_EXTRA_GAS_IN_LOOPS:
+    sbo: Gas Costly Loop
+SOLIDITY_FUNCTIONS_RETURNS_TYPE_AND_NO_RETURN:
+    sbo: Missing Return Statement
+SOLIDITY_FUNCTION_RETURNS_TYPE_AND_NO_RETURN:
+    sbo: Missing Return Statement
+SOLIDITY_GAS_LIMIT_IN_LOOPS:
+    classification: SWC-132
+    sbo: Gas Costly Loop
+SOLIDITY_INCORRECT_BLOCKHASH:
+    sbo: Blockhash Dependency
+SOLIDITY_LOCKED_MONEY:
+    classification: DASP-5
+    sbo: Frozen Ether
+SOLIDITY_MSGVALUE_EQUALS_ZERO: {}
+SOLIDITY_OVERPOWERED_ROLE:
+    sbo: Denial of Service through Owner Account (DoS)
+SOLIDITY_PRAGMAS_VERSION:
+    classification: SWC-103
+    sbo: Floating Pragma
+SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA:
+    sbo: Exposed State Variables
+SOLIDITY_PRIVATE_MODIFIER_DONT_HIDE_DATA:
+    sbo: Exposed State Variables
+SOLIDITY_REDUNDANT_FALLBACK_REJECT:
+    sbo: Redundant Fallback Function
+SOLIDITY_REVERT_REQUIRE:
+    sbo: Assert / Require / Revert Violation
+SOLIDITY_REWRITE_ON_ASSEMBLY_CALL:
+    sbo: Use of Assembly
+SOLIDITY_SAFEMATH:
+    sbo: Use of Deprecated Functions
+SOLIDITY_SEND:
+    sbo: Send Instead of Transfer
+SOLIDITY_SHOULD_NOT_BE_PURE:
+    sbo: Wrong Type of Function (pure - view)
+SOLIDITY_SHOULD_NOT_BE_VIEW:
+    sbo: Wrong Type of Function (pure - view)
+SOLIDITY_SHOULD_RETURN_STRUCT: {}
+SOLIDITY_TRANSFER_IN_LOOP:
+    classification: SWC-113, DASP-5
+    sbo: Denial of Service by External Contract
+SOLIDITY_TX_ORIGIN:
+    classification: SWC-115, DASP-2
+    sbo: Tx.origin usage
+SOLIDITY_UINT_CANT_BE_NEGATIVE:
+    sbo: Signedness Bugs
+SOLIDITY_UNCHECKED_CALL:
+    classification: SWC-104, DASP-4
+    sbo: Unchecked External Call
+SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL:
+    sbo: Function Default Visibility
+SOLIDITY_UPGRADE_TO_050:
+    sbo: Outdated Compiler Version
+SOLIDITY_USING_INLINE_ASSEMBLY:
+    sbo: Use of Assembly
+SOLIDITY_VAR:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+SOLIDITY_VAR_IN_LOOP_FOR:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+SOLIDITY_VISIBILITY:
+    classification: SWC-100
+    sbo: Function Default Visibility
+SOLIDITY_WRONG_SIGNATURE:
+    sbo: Signature Collisions - Function

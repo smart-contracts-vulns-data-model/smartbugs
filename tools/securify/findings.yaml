@@ -1,0 +1,24 @@
+DAO:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+DAOConstantGas: # TOENHANCE
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+MissingInputValidation:
+    classification: DASP-3
+    sbo: Improper Input Validation
+TODAmount:
+    classification: SWC-114, DASP-7
+    sbo: Transaction Ordering Dependency Amount (TOD Amount)
+TODReceiver:
+    classification: SWC-114, DASP-7
+    sbo: Transaction Ordering Dependency Receiver (TOD Receiver) 
+TODTransfer:
+    classification: SWC-114, DASP-7
+    sbo: Transaction Ordering Dependency Transfer (TOD Transfer)
+UnhandledException:
+    classification: SWC-104, DASP-4
+    sbo: Mishandled Exception
+UnrestrictedEtherFlow:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)

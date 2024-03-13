@@ -1,0 +1,18 @@
+Integer Overflow:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+Integer Underflow:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+Reentrancy:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+Time Manipulation:
+    classification: SWC-116, DASP-8
+    sbo: Timestamp Dependency
+Transaction Ordering Dependence:
+    classification: SWC-114, DASP-7
+    sbo: Transaction Ordering Dependency (TOD)
+Unchecked Low Level Call:
+    classification: SWC-104, DASP-4
+    sbo: Unchecked External Call

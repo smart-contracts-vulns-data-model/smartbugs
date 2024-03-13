@@ -1,0 +1,9 @@
+call bug:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+delegatecall bug:
+    classification: SWC-112
+    sbo: Delegatecall to Untrusted Callee
+selfdestruct bug:
+    classification: SWC-105, DASP-2
+    sbo: Ether Transfer with Selfdestruct

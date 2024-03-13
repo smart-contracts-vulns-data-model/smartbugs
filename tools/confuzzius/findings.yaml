@@ -1,0 +1,33 @@
+Arbitrary Memory Access:
+    classification: SWC-124, DASP-2
+    sbo: Write to Arbitrary Storage Location
+Assertion Failure:
+    classification: SWC-110
+    sbo: Assertion Failure
+Block Dependency:
+    classification: SWC-120, DASP-6
+    sbo: Block Number Dependency, Blockhash Dependency, Timestamp Dependency
+Integer Overflow:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+Leaking Ether:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+Locking Ether:
+    classification: DASP-5
+    sbo: Frozen Ether
+Reentrancy:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+Transaction Order Dependency:
+    classification: SWC-114, DASP-7
+    sbo: Transaction Ordering Dependency (TOD)
+Unhandled Exception:
+    classification: SWC-104, DASP-4
+    sbo: Mishandled Exception
+Unprotected Selfdestruct:
+    classification: SWC-106, DASP-2
+    sbo: Unprotected SelfDestruct
+Unsafe Delegatecall:
+    classification: SWC-112
+    sbo: Delegatecall to Untrusted Callee

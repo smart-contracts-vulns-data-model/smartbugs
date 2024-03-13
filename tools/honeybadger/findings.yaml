@@ -1,0 +1,17 @@
+Balance disorder:
+    sbo: Unsecured Balance
+Hidden state update:
+    sbo: Backdoor Threat
+Hidden transfer:
+    sbo: Backdoor Threat
+Inheritance disorder:
+    sbo: Incorrect Inheritance Order
+Money flow:
+    sbo: Transaction Ordering Dependency Amount (TOD Amount)
+Skip empty string:
+    sbo: Skip Empty String Literal
+Straw man contract: {}
+Type overflow:
+    sbo: Unsafe Type Inference (Variables)
+Uninitialised struct:
+    sbo: Uninitialized State / Local Variable

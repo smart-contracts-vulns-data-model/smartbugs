@@ -1,0 +1,17 @@
+CheckedCallStateUpdate:
+    sbo: Unchecked Send
+Destroyable:
+    classification: SWC-106, DASP-2
+    sbo: Unprotected SelfDestruct
+OriginUsed:
+    classification: SWC-115, DASP-2
+    sbo: Tx.origin usage
+ReentrantCall:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+UncheckedCall:
+    classification: SWC-104, DASP-4
+    sbo: Unchecked External Call
+UnsecuredValueSend:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)

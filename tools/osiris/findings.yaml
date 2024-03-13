@@ -1,0 +1,33 @@
+Callstack bug:
+    classification: DASP-5
+    sbo: CallStack Depth Limit
+Concurrency bug:
+    classification: SWC-114, DASP-7
+    sbo: Transaction Ordering Dependency (TOD)
+Division bugs:
+    classification: DASP-3
+    sbo: Integer Division
+Modulo bugs: # TOENHANCE
+    classification: DASP-3
+    sbo: Arithmetic Issues
+Overflow bugs:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+Reentrancy bug:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+Signedness bugs:
+    classification: DASP-3
+    sbo: Signedness Bugs
+Time dependency bug:
+    classification: SWC-116, DASP-8
+    sbo: Timestamp Dependency
+Timedependency bug:
+    classification: SWC-116, DASP-8
+    sbo: Timestamp Dependency
+Truncation bugs:
+    classification: DASP-3
+    sbo: Truncation Bugs
+Underflow bugs:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow

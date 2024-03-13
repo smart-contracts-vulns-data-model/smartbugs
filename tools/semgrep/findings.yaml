@@ -1,0 +1,117 @@
+unnecessary-checked-arithmetic-in-loop:
+    sbo: Gas Costly Pattern
+proxy-storage-collision:
+    classification: SWC-124, DASP-2	
+    sbo: Write to Arbitrary Storage Location
+erc20-public-burn:
+    sbo: Locked Money (Transfer to 0x0 Address)
+non-payable-constructor:
+    sbo: Gas Costly Pattern
+use-prefix-increment-not-postfix:
+    sbo: Gas Costly Pattern
+balancer-readonly-reentrancy-getrate:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy Read-Only
+erc777-reentrancy:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+use-short-revert-string:
+    sbo: Gas Costly Pattern
+init-variables-with-default-value:
+    sbo: Gas Costly Pattern
+unrestricted-transferownership:
+    classification: DASP-2
+    sbo: Access Control (Tainted Owner Variable)
+erc20-public-transfer:
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+openzeppelin-ecdsa-recover-malleable:
+    classification: SWC-117
+    sbo: Signature Malleability
+erc721-reentrancy:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+erc677-reentrancy:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+array-length-outside-loop:
+    sbo: Gas Costly Pattern
+no-slippage-check:
+    sbo: Insertion Frontrunning (Sandwich) 
+basic-arithmetic-underflow:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+oracle-price-update-not-restricted:
+    classification: DASP-2
+    sbo: Price Oracle Manipulation (Machine Unauditable)
+use-multiple-require:
+    sbo: Gas Costly Pattern
+compound-borrowfresh-reentrancy:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+use-prefix-decrement-not-postfix:
+    sbo: Gas Costly Pattern
+use-nested-if:
+    sbo: Gas Costly Pattern
+gearbox-tokens-path-confusion:
+    sbo: Token API Violation
+redacted-cartel-custom-approval-bug:
+    sbo: Approval Frontrunning
+erc721-arbitrary-transferfrom:
+    sbo: Approval Frontrunning
+balancer-readonly-reentrancy-getpooltokens:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy Read-Only
+incorrect-use-of-blockhash:
+    sbo: Blockhash Dependency
+curve-readonly-reentrancy:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy Read-Only
+sense-missing-oracle-access-control:
+    classification: DASP-2
+encode-packed-collision:
+    classification: SWC-133, DASP-1
+    sbo: Hash Collision With Multiple Variable-Length Arguments
+uniswap-callback-not-protected:
+    classification: DASP-2
+    sbo: Price Manipulation By Buying Tokens
+keeper-network-oracle-manipulation:
+    classification: SWC-101, DASP-3
+tecra-coin-burnfrom-bug:
+    sbo: Incorrect Parameter Order
+use-ownable2step:
+    sbo: Access Control (Tainted Owner Variable)
+state-variable-read-in-a-loop:
+    sbo: Gas Costly Pattern
+use-abi-encodecall-instead-of-encodewithselector:
+    sbo: Use of Deprecated Functions
+delegatecall-to-arbitrary-address:
+    classification: SWC-112, DASP-10
+    sbo: Delegatecall to Untrusted Callee
+arbitrary-low-level-call:
+    classification: SWC-112, DASP-10
+    sbo: Delegatecall to Untrusted Callee, Low Level Calls
+superfluid-ctx-injection:
+    sbo: Unexpected function arguments
+non-optimal-variables-swap:
+    sbo: Gas Costly Pattern
+use-custom-error-not-require:
+    sbo: Gas Costly Pattern
+inefficient-state-variable-increment:
+    sbo: Gas Costly Pattern
+compound-sweeptoken-not-restricted:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+accessible-selfdestruct:
+    classification: SWC-106, DASP-2
+    sbo: Unprotected SelfDestruct
+no-bidi-characters:
+    classification: SWC-130
+    sbo: Right-To-Left Override
+basic-oracle-manipulation:
+    classification: SWC-101, DASP-3
+    sbo: Price Manipulation By AMM
+msg-value-multicall:
+    sbo: A given function is invoked multiple times unexpectedly
+rigoblock-missing-access-control:
+    classification: DASP-2
+    sbo: Access Control (Tainted Owner Variable)

@@ -1,0 +1,188 @@
+abiencoderv2-array:
+    sbo: Outdated Compiler Version
+arbitrary-send:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+arbitrary-send-erc20:
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+arbitrary-send-erc20-permit:
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+arbitrary-send-eth:
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+array-by-reference:
+    sbo: Parameter Type Mismatch
+assembly:
+    sbo: Use of Assembly
+assert-state-change:
+    sbo: Assert / Require / Revert Violation
+backdoor:
+    sbo: Backdoor Threat
+boolean-cst:
+    sbo: Opaque Predicate - Useless Code Related Pattern
+boolean-equal:
+    sbo: Bad Coding Pattern
+calls-loop:
+    classification: SWC-113, DASP-5
+    sbo: Denial of Service by External Contract
+complex-function:
+    sbo: Gas Costly Pattern
+constable-states:
+    sbo: Missing Constant Modifier in Variable Declaration
+constant-function:
+    sbo: Wrong Type of Function (pure - view)
+constant-function-asm:
+    sbo: Wrong Type of Function (pure - view)
+constant-function-state:
+    sbo: Wrong Type of Function (pure - view)
+controlled-array-length:
+    sbo: Bad Coding Pattern
+controlled-delegatecall:
+    classification: SWC-106, DASP-2
+    sbo: Delegatecall to Untrusted Callee
+costly-loop:
+    sbo: Gas Costly Loop
+dead-code:
+    sbo: Code With No Effects
+delegatecall-loop:
+    sbo: Nested Call
+deprecated-standards:
+    sbo: Use of Deprecated Functions
+divide-before-multiply:
+    sbo: Integer Division
+domain-separator-collision:
+    sbo: Signature Collisions - Function
+enum-conversion: {}
+erc20-indexed:
+    sbo: ERC20 Indexed
+erc20-interface:
+    sbo: ERC20 Interface
+erc721-interface:
+    sbo: ERC721 Interface
+events-access:
+    sbo: Bad Coding Pattern
+events-maths:
+    sbo: Bad Coding Pattern
+external-function:
+    sbo: Function Default Visibility
+function-init-state:
+    sbo: Uninitialized State / Local Variable
+incorrect-equality:
+    sbo: Balance Equality
+incorrect-modifier:
+    sbo: Function Return Type Mismatch
+incorrect-shift:
+    sbo: Use of Assembly
+incorrect-unary:
+    sbo: Typographical Error
+locked-ether:
+    classification: DASP-5
+    sbo: Frozen Ether
+low-level-calls:
+    classification: SWC-104, DASP-4
+    sbo: Low Level Calls
+mapping-deletion:
+    sbo: Bad Coding Pattern
+missing-inheritance:
+    sbo: Incorrect Inheritance Order
+missing-zero-check:
+    sbo: Improper Input Validation
+msg-value-loop:
+    sbo: Bad Coding Pattern
+multiple-constructors:
+    sbo: Wrong Constructor Name
+name-reused: {}
+naming-convention:
+    sbo: Bad Coding Pattern
+pragma:
+    classification: SWC-103
+    sbo: Floating Pragma
+protected-vars:
+    sbo: Users can update privileged state variables arbitrarily
+public-mappings-nested:
+    sbo: Compiler Error
+redundant-statements:
+    sbo: Code With No Effects
+reentrancy-benign:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy Benign
+reentrancy-eth:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+reentrancy-events:
+    sbo: Reentrancy
+reentrancy-no-eth:
+    classification: SWC-107, DASP-1
+    sbo: ReentrancyNoETH
+reentrancy-unlimited-gas:
+    sbo: Reentrancy
+reused-constructor:
+    sbo: A given function is invoked multiple times unexpectedly
+rtlo:
+    sbo: Right-To-Left Override
+shadowing-abstract:
+    classification: SWC-119
+    sbo: Shadowing State Variables
+shadowing-builtin:
+    sbo: Shadowed Builtin
+shadowing-local:
+    classification: SWC-119
+    sbo: Shadowed Local Variable
+shadowing-state:
+    classification: SWC-119
+    sbo: Shadowing State Variables
+similar-names:
+    sbo: Bad Coding Pattern
+solc-version:
+    classification: SWC-102
+    sbo: Outdated Compiler Version
+storage-array:
+    sbo: Compiler Error
+suicidal:
+    classification: SWC-106, DASP-2
+    sbo: Unprotected SelfDestruct
+tautology:
+    sbo: Opaque Predicate - Useless Code Related Pattern
+timestamp:
+    classification: SWC-116, DASP-8
+    sbo: Timestamp Dependency
+token-reentrancy:
+    sbo: Reentrancy
+too-many-digits:
+    sbo: Too Many Digits
+tx-origin:
+    classification: SWC-115, DASP-2
+    sbo: Tx.origin usage
+unchecked-lowlevel:
+    sbo: Low Level Calls
+unchecked-send:
+    sbo: Unchecked Send
+unchecked-transfer:
+    sbo: Unchecked Send
+unimplemented-functions:
+    sbo: Bad Coding Pattern
+uninitialized-fptr-cst:
+    sbo: Compiler Error
+uninitialized-local:
+    sbo: Uninitialized State / Local Variable
+uninitialized-state:
+    classification: SWC-109
+    sbo: Uninitialized State / Local Variable
+uninitialized-storage:
+    classification: SWC-109
+    sbo: Uninitialized Storage Pointer
+unprotected-upgrade:
+    sbo: Upgradable Contract
+unused-return:
+    classification: SWC-104, DASP-4
+    sbo: Unchecked External Call
+unused-state:
+    classification: SWC-131
+    sbo: Unused Variable
+variable-scope:
+    sbo: Uninitialized State / Local Variable
+void-cst:
+    sbo: Missing Constructor
+weak-prng:
+    sbo: Generating Randomness
+write-after-write:
+    sbo: Useless Assignment

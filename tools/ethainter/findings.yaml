@@ -1,0 +1,20 @@
+AccessibleSelfdestruct:
+    classification: SWC-106, DASP-2
+    sbo: Unprotected SelfDestruct
+TaintedDelegatecall:
+    classification: SWC-112
+    sbo: Delegatecall to Untrusted Callee
+TaintedOwnerVariable:
+    classification: SWC-124, DASP-2
+    sbo: Access Control (Tainted Owner Variable)
+TaintedSelfdestruct:
+    classification: SWC-105, DASP-2
+    sbo: Tainted Selfdestruct
+TaintedStoreIndex:
+    classification: SWC-124, DASP-2
+    sbo: Write to Arbitrary Storage Location
+TaintedValueSend:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+UncheckedTaintedStaticcall:
+    sbo: Unchecked External Call

@@ -1,0 +1,9 @@
+OverflowLoopIterator:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+UnboundedMassOp:
+    classification: SWC-128, DASP-5
+    sbo: Gas Costly Loop
+WalletGriefing:
+    classification: SWC-113, DASP-5
+    sbo: Insufficient Gas Griefing (Wallet Griefing)

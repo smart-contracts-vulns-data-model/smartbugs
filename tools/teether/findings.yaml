@@ -1,0 +1,3 @@
+Ether leak:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)

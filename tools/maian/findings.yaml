@@ -1,0 +1,24 @@
+Destructible:
+    classification: SWC-106, DASP-2
+    sbo: Unprotected SelfDestruct
+Destructible (verified):
+    classification: SWC-106, DASP-2
+    sbo: Unprotected SelfDestruct
+Ether leak:
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+Ether leak (verified):
+    classification: SWC-105, DASP-2
+    sbo: Unprotected Ether Withdrawal (Unauthorized Transfer)
+Ether lock:
+    classification: DASP-5
+    sbo: Frozen Ether
+Ether lock (Ether accepted without send):
+    classification: DASP-5
+    sbo: Frozen Ether
+No Ether leak (no send):
+    sbo: Frozen Ether
+No Ether lock (Ether refused):
+    sbo: Frozen Ether
+Not destructible (no self-destruct):
+    sbo: Non-Terminating Contracts - Ethereum, Cardano

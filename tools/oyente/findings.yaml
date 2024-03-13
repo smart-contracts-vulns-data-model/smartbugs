@@ -1,0 +1,19 @@
+Callstack Depth Attack Vulnerability:
+    classification: DASP-5
+    sbo: CallStack Depth Limit
+Integer Overflow:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+Integer Underflow:
+    classification: SWC-101, DASP-3
+    sbo: Integer Overflow / Underflow
+Parity Multisig Bug 2: {}
+Re-Entrancy Vulnerability:
+    classification: SWC-107, DASP-1
+    sbo: Reentrancy
+Timestamp Dependency:
+    classification: SWC-116, DASP-8
+    sbo: Timestamp Dependency
+Transaction-Ordering Dependence (TOD):
+    classification: SWC-114, DASP-7
+    sbo: Transaction Ordering Dependency (TOD)
